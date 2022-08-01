@@ -1,0 +1,592 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:wght@100;300;400&display=swap')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*++++++++++++++++++++++++++++++++++INDEX+++++++++++++++++++++++++++++++*/
+/*-----HEADER-----*/
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(200, 213, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header img {
+    width: 25px;
+    height: 25px;
+    margin: 10px 0px 5px 10px;
+}
+
+header nav ul {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: flex;
+
+
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover{
+    color: rgb(212, 245, 255);
+}
+
+
+/*-----HEADER-----*/
+
+/*------MAIN-------*/
+
+/*---Intro---*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/Anchorage_on_an_April_evening.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 80px;
+
+}
+
+.hero p {
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+
+.parrafo-introductorio {
+
+    font-size: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*---Intro---*/
+
+/*---Souvenirs---*/
+
+
+.titulo-souvenirs h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.titulo-souvenirs p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.souvenirs div div {
+    width: 200px;
+    height: 250px;
+    border: 1px solid gainsboro;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(243, 243, 243, 0.479);
+    display: inline-block;
+    overflow: hidden;
+    transition: 00.5s;
+}
+
+.souvenirs div div:hover{
+    transform: scale(1.05);
+}
+
+.souvenirs div div h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.souvenirs div div h2 {
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: 25px;
+}
+
+.souvenirs div div a {
+    text-decoration: none;
+    background-color: yellow;
+    padding: 3px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.souvenirs div div a:hover{
+    background-color: rgb(255, 230, 0);
+    color: rgb(0, 0, 0);
+}
+
+.souvenirs div div img {
+    padding-top: 5px;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.souvenirs div {
+    width: 100%;
+    background-color: aliceblue;
+    height: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+/*---Souvenirs---*/
+
+/*boton-fixed*/
+
+.boton-fixed img {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 65px;
+    right: 40px;
+}
+
+.boton-fixed{
+    animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    
+}
+
+/*------MAIN-------*/
+
+/*----FOOTER----*/
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+
+}
+
+footer {
+    background-color: rgba(189, 225, 255, 0.945);
+}
+
+footer div {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.logo-redes {
+    width: 30px;
+    height: 30px;
+
+}
+
+#Footer-1 p {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*----FOOTER----*/
+
+/*++++++++++++++++++++++++++++++++++INDEX+++++++++++++++++++++++++++++++*/
+
+
+/*++++++++++++++++++++++++++++++++++HISTORIA+++++++++++++++++++++++++++++++*/
+
+.main-historia {
+    flex-wrap: wrap;
+}
+
+
+.historia-anchorage {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    
+
+
+}
+
+.historia-anchorage img {
+    padding-left: 15px;
+}
+
+.historia-anchorage-texto {
+    justify-content: left;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.historia-anchorage-texto h1 {
+    padding-bottom: 11px;
+    margin-top: -8px;
+}
+
+.video {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    
+
+}
+
+.video-texto {
+    padding-right: 30px;
+    display: flex;
+
+}
+
+.video-texto h2 {
+    padding-right: 15px;
+}
+
+
+.video-video-mas-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    align-content: right;
+
+}
+
+.video-video-mas-texto h3 {
+    margin-bottom: 10px;
+}
+
+/*++++++++++++++++++++++++++++++++++HISTORIA+++++++++++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++++++++++++++IMAGENES+++++++++++++++++++++++++++++++*/
+
+.main-imagenes{
+    width: 100%;
+}
+
+.imagenes-tipicas {
+    margin: 30px 30px 60px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 500px;
+    gap: 15px;
+}
+
+.imagenes-tipicas div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 1px 18px 28px -15px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: 1px 18px 28px -15px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 1px 18px 28px -15px rgba(0, 0, 0, 0.76);
+}
+
+.img-4{
+    grid-column: span 2;
+}
+
+.img-6{
+    grid-row: span 2;
+}
+
+.img-9{
+    grid-column: span 2;
+}
+
+.grid-item{
+    position: relative;
+}
+
+.grid-item h3{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+/*! acá aplicar hover quizás y transitions transform scale
+
+
+
+/*++++++++++++++++++++++++++++++++++IMAGENES+++++++++++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++++++++++++++EL-AEROPUERTO+++++++++++++++++++++++++++++++*/
+
+.aeropuerto {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/aeropuerto-anchorage.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.aeropuerto h2 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.main-aeropuerto div {
+    margin-bottom: 125px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.main-aeropuerto h3 {
+    margin-bottom: 25px;
+}
+
+/*++++++++++++++++++++++++++++++++++EL-AEROPUERTO+++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++CONTACTO+++++++++++++++++++++++++++++++*/
+
+.main-contacto section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-contacto form {
+    width: 300px;
+    height: 515px;
+    border: 1px solid;
+    border-color: black;
+    margin-bottom: 80px;
+    margin-left: 25px;
+    padding-left: 15px;
+}
+
+.main-contacto form div {
+    padding-bottom: 5px;
+}
+
+.main-contacto form h4 {
+    padding-bottom: 25px;
+}
+
+.dejanos-tu-comentario {
+    padding-top: 25px;
+}
+
+/*++++++++++++++++++++++++++++++++++CONTACTO+++++++++++++++++++++++++++++++*/
+
+/*MODIFICACIONES DE /*? RESPONSIVE */
+
+/*? ------ HEADER RESPONSIVE ------ ?*/
+
+@media screen and (max-width: 639px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .header img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    } 
+    
+
+}
+
+@media screen and (max-width: 515px) {
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+/*? ------ INDEX RESPONSIVE ------ ?*/
+
+@media screen and (max-width: 683px) {
+    .souvenirs div{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+/*? ------ HISTORIA RESPONSIVE ------ ?*/
+
+@media screen and (max-width: 1118px) {
+    .historia-anchorage{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    .historia-anchorage img{
+        
+        margin-bottom: 35px;
+    }
+
+    .video{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-texto{
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    .historia-anchorage img{
+        width: 400px;
+        height: 250px;
+    }
+
+    .video-video-mas-texto{
+        width: 500px;
+        height: 250px;
+    }
+
+    .video{
+        align-items: center;
+        margin-left: 25px;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    .video-video-mas-texto iframe{
+        width: 360px;
+        height: 203px;
+    }
+}
+
+/*? ------ IMAGENES RESPONSIVE ------ ?*/
+
+@media screen and (max-width: 1000px) {
+    
+    .imagenes-tipicas{
+        grid-auto-rows: 250px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+@media screen and (max-width: 515px){
+    .imagenes-tipicas{
+        grid-template-columns: 1fr;
+    }
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .grid-item h3{
+        font-size: 15px;
+    }
+}
+
+/*? ------ EL AEROPUERTO RESPONSIVE ------ ?*/
+
+@media screen and (max-width: 639px) {
+    .aeropuerto{
+        height: 500px;
+    }
+}
+
+/*? ------ CONTACTO RESPONSIVE ------ ?*/
+
+@media screen and (max-width: 864px) {
+    .main-contacto section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacto-mapa{
+        margin-left: 25px;
+        margin-bottom: 75px;
+    }
+    .main-contacto form{
+        width: 70%;
+    }
+    .dejanos-tu-comentario textarea{
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .contacto-mapa iframe{
+        height: 300px;
+        width: 300px;
+    }
+}
