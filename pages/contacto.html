@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,10 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-        <img src="../img/logo.png" alt="Logo_Pagina">
+        <img src="../img/mountain.png" alt="Logo_Pagina">
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -21,7 +23,8 @@
         </nav>
     </header>
     <main class="main-contacto">
-        <section>
+
+        <section class="contacto-y-mapa">
             <!--formulario-->
             <form action="">
                 <h4>Hablemos de Anchorage !</h4>
@@ -37,7 +40,7 @@
                     <label for="email">Email:</label>
                     <input type="email" name="email">
                 </div>
-                
+
                 <div>
                     <div>
                         <label for="masculino">Masculino</label>
@@ -52,7 +55,7 @@
                         <input type="radio" name="otro">
                     </div>
                     <div class="dejanos-tu-comentario">
-                        
+
                         <p>Dejanos tu comentario!</p>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
@@ -71,28 +74,58 @@
             </form>
             <div class="contacto-mapa">
                 <h4>Encontranos de 9h a 18h acá : </h4>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.490988109781!2d-58.42875065!3d-34.6010575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf26ba8c069%3A0x1e5838e3d5fe2c92!2sEstaci%C3%B3n%20Once!5e0!3m2!1sen!2sar!4v1656589993251!5m2!1sen!2sar" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.490988109781!2d-58.42875065!3d-34.6010575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf26ba8c069%3A0x1e5838e3d5fe2c92!2sEstaci%C3%B3n%20Once!5e0!3m2!1sen!2sar!4v1656589993251!5m2!1sen!2sar"
+                    width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-        
+
+        <section class="subida-archivos">
+            <div>
+                <h2>Dejanos tus fotos en Anchorage y nosotros las compartimos!</h2>
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Tu foto acá</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Tu foto acá</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+            </div>
+            <div class="mb-3">
+                <label for="formFileDisabled" class="form-label">Tu foto acá</label>
+                <input class="form-control" type="file" id="formFileDisabled">
+            </div>
+            <div class="mb-3">
+                <label for="formFileSm" class="form-label">Tu foto acá</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file">
+            </div>
             
+        </section>
+
+
         <!--logo flotante de whatsapp-->
 
         <div class="boton-fixed">
-        
+
             <a href="https://web.whatsapp.com/" target="_blank"><img src="../img/whatsapp.png" alt="boton-flotante"></a>
         </div>
-        
+
     </main>
-    
+
     <footer id="Footer-1">
         <p>Nuestras redes</p>
         <div>
-            <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebooklogo.png" alt="logo_facebook" class="logo-redes"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagramlogo.png" alt="logo_instagram" class="logo-redes"></a>
-            <a href="https://twitter.com/" target="_blank"><img src="../img/twitterlogo.png" alt="logo_twitter" class="logo-redes"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebooklogo.png" alt="logo_facebook"
+                    class="logo-redes"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagramlogo.png"
+                    alt="logo_instagram" class="logo-redes"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="../img/twitterlogo.png" alt="logo_twitter"
+                    class="logo-redes"></a>
         </div>
-        
+
     </footer>
 </body>
+
 </html>
