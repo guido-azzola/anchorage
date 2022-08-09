@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-web-bootstrap",
+  "version": "1.0.0",
+  "description": "Esto es un read me de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guido-azzola/anchorage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guido-azzola/anchorage/issues"
+  },
+  "homepage": "https://github.com/guido-azzola/anchorage#readme"
+}
