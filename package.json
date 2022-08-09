@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/guido-azzola/anchorage/issues"
   },
-  "homepage": "https://github.com/guido-azzola/anchorage#readme"
+  "homepage": "https://github.com/guido-azzola/anchorage#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
 }
