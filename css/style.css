@@ -7,12 +7,12 @@
 * {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-boton-fixed {
+.boton-fixed {
   animation: bounce;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-delay: 2s; }
-  boton-fixed img {
+  .boton-fixed img {
     width: 60px;
     height: 60px;
     position: fixed;
@@ -50,7 +50,7 @@ header {
         header nav ul li a:hover {
           color: #d4f5ff; }
 
-footer {
+#Footer-1 {
   width: 100%;
   height: 50px;
   display: flex;
@@ -59,28 +59,26 @@ footer {
   position: fixed;
   bottom: 0px;
   background-color: rgba(189, 225, 255, 0.945); }
-  footer div {
+  #Footer-1 p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  #Footer-1 div {
     margin-right: 15px;
     margin-left: 15px; }
-
-logo-redes {
-  width: 30px;
-  height: 30px; }
-
-#Footer-1 p {
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    #Footer-1 div a .logo-redes {
+      width: 30px;
+      height: 30px; }
 
 /*+++ INDEX +++*/
 /*-Intro-*/
-hero {
+.hero {
   width: 100%;
   height: 100vh;
   background-image: url("../img/Anchorage_on_an_April_evening.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
-  hero h1 {
+  .hero h1 {
     font-size: 50px;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
@@ -89,12 +87,12 @@ hero {
     color: white;
     position: relative;
     top: 80px; }
-  hero p {
+  .hero p {
     text-align: center;
     position: relative;
     top: 90px; }
 
-parrafo-introductorio {
+.parrafo-introductorio {
   font-size: 20px;
   padding-left: 2%;
   padding-right: 2%;
@@ -103,21 +101,21 @@ parrafo-introductorio {
   text-align: center;
   justify-content: center; }
 
-accordion.accordion-flush {
+.accordion.accordion-flush {
   margin-top: 100px;
   margin-bottom: 100px; }
 
 /*---Intro---*/
 /*---Souvenirs---*/
-titulo-souvenirs h2 {
+.titulo-souvenirs h2 {
   text-align: center;
   margin-bottom: 5px; }
 
-titulo-souvenirs p {
+.titulo-souvenirs p {
   text-align: center;
   margin-bottom: 30px; }
 
-souvenirs div {
+.souvenirs div {
   width: 100%;
   background-color: aliceblue;
   height: 300px;
@@ -125,7 +123,7 @@ souvenirs div {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; }
-  souvenirs div div {
+  .souvenirs div div {
     width: 200px;
     height: 250px;
     border: 1px solid gainsboro;
@@ -137,26 +135,26 @@ souvenirs div {
     display: inline-block;
     overflow: hidden;
     transition: 00.5s; }
-    souvenirs div div:hover {
+    .souvenirs div div:hover {
       transform: scale(1.05); }
-    souvenirs div div h3 {
+    .souvenirs div div h3 {
       text-align: center;
       margin-bottom: 5px;
       font-size: 15px; }
-    souvenirs div div h2 {
+    .souvenirs div div h2 {
       margin-top: 5px;
       font-size: 10px;
       margin-bottom: 25px; }
-    souvenirs div div a {
+    .souvenirs div div a {
       text-decoration: none;
       background-color: yellow;
       padding: 3px;
       border-radius: 5px;
       transition: 0.2s; }
-      souvenirs div div a:hover {
+      .souvenirs div div a:hover {
         background-color: #ffe600;
         color: black; }
-    souvenirs div div img {
+    .souvenirs div div img {
       padding-top: 5px;
       width: 150px;
       height: 150px;
@@ -167,36 +165,36 @@ souvenirs div {
 
 /*----INDEX----*/
 /*+++ HISTORIA +++*/
-main-historia {
+.main-historia {
   flex-wrap: wrap; }
 
-historia-anchorage {
+.historia-anchorage {
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: top; }
-  historia-anchorage img {
+  .historia-anchorage img {
     padding-left: 15px; }
 
-historia-anchorage-texto {
+.historia-anchorage-texto {
   justify-content: left;
   padding-left: 15px;
   padding-right: 15px; }
-  historia-anchorage-texto h1 {
+  .historia-anchorage-texto h1 {
     padding-bottom: 11px;
     margin-top: -8px; }
 
-video {
+.video {
   display: flex;
   padding: 15px;
   justify-content: space-around;
   margin-bottom: 70px; }
 
-video-texto {
+.video-texto {
   padding-right: 30px;
   display: flex; }
-  video-texto h2 {
+  .video-texto h2 {
     padding-right: 15px; }
 
 .video-video-mas-texto {
@@ -209,7 +207,7 @@ video-texto {
 
 /*--- HISTORIA ---*/
 /*+++ EL AEROPUERTO +++*/
-aeropuerto {
+.aeropuerto {
   width: 100%;
   height: 100vh;
   background-image: url("../img/aeropuerto-anchorage.JPG");
@@ -218,14 +216,14 @@ aeropuerto {
   background-position: center;
   margin-bottom: 80px;
   position: relative; }
-  aeropuerto h2 {
+  .aeropuerto h2 {
     text-align: center;
     position: relative;
     top: 100px;
     padding-left: 15px;
     padding-right: 15px; }
 
-main-aeropuerto div {
+.main-aeropuerto div {
   margin-bottom: 125px;
   text-align: center;
   align-items: center;
@@ -234,21 +232,21 @@ main-aeropuerto div {
   margin-left: 25px;
   margin-right: 25px; }
 
-main-aeropuerto h3 {
+.main-aeropuerto h3 {
   margin-bottom: 25px; }
 
 /*--- EL AEROPUERTO ---*/
 /*+++ IMAGENES +++*/
-main-imagenes {
+.main-imagenes {
   width: 100%; }
 
-imagenes-tipicas {
+.imagenes-tipicas {
   margin: 30px 30px 60px 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 500px;
   gap: 15px; }
-  imagenes-tipicas div img {
+  .imagenes-tipicas div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -256,21 +254,21 @@ imagenes-tipicas {
     -webkit-box-shadow: 1px 18px 28px -15px rgba(0, 0, 0, 0.76);
     -moz-box-shadow: 1px 18px 28px -15px rgba(0, 0, 0, 0.76);
     transition: 0.5s; }
-    imagenes-tipicas div img:hover {
+    .imagenes-tipicas div img:hover {
       scale: 1.02; }
 
-img-4 {
+.img-4 {
   grid-column: span 2; }
 
-img-6 {
+.img-6 {
   grid-row: span 2; }
 
-img-9 {
+.img-9 {
   grid-column: span 2; }
 
-grid-item {
+.grid-item {
   position: relative; }
-  grid-item h3 {
+  .grid-item h3 {
     position: absolute;
     bottom: 0;
     color: white;
@@ -278,12 +276,12 @@ grid-item {
 
 /*--- IMAGENES ---*/
 /*+++ CONTACTO +++*/
-contacto-y-mapa {
+.contacto-y-mapa {
   margin-top: 50px;
   display: flex;
   justify-content: space-around; }
 
-main-contacto form {
+.main-contacto form {
   width: 300px;
   height: 515px;
   border: 1px solid;
@@ -291,21 +289,21 @@ main-contacto form {
   margin-bottom: 80px;
   margin-left: 25px;
   padding-left: 15px; }
-  main-contacto form div {
+  .main-contacto form div {
     padding-bottom: 5px; }
-  main-contacto form h4 {
+  .main-contacto form h4 {
     padding-bottom: 25px; }
 
-dejanos-tu-comentario {
+.dejanos-tu-comentario {
   padding-top: 25px; }
 
-subida-archivos {
+.subida-archivos {
   margin: 30px;
   margin-bottom: 150px; }
-  subida-archivos h2 {
+  .subida-archivos h2 {
     margin-bottom: 25px; }
 
-mb-3 {
+.mb-3 {
   padding: 10px; }
 
 /*--- CONTACTO ---*/
@@ -330,31 +328,31 @@ mb-3 {
 
 /*? ------ INDEX RESPONSIVE ------ ?*/
 @media screen and (max-width: 683px) {
-  souvenirs div {
+  .souvenirs div {
     flex-direction: column;
     align-items: center; } }
 
 /*? ------ HISTORIA RESPONSIVE ------ ?*/
 @media screen and (max-width: 1118px) {
-  historia-anchorage {
+  .historia-anchorage {
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
     margin-top: 40px; }
-    historia-anchorage img {
+    .historia-anchorage img {
       margin-bottom: 35px; }
-  video {
+  .video {
     flex-direction: column;
     align-items: center; }
-  video-texto {
+  .video-texto {
     margin-bottom: 30px;
     margin-top: 50px; } }
 
 @media screen and (max-width: 670px) {
-  hisoria-anchorage img {
+  .hisoria-anchorage img {
     width: 400px;
     height: 250px; }
-  video {
+  .video {
     align-items: center;
     margin-left: 25px; } }
 
@@ -365,42 +363,42 @@ mb-3 {
 
 /*? ------ EL AEROPUERTO RESPONSIVE ------ ?*/
 @media screen and (max-width: 639px) {
-  aeropuerto {
+  .aeropuerto {
     height: 500px; } }
 
 /*? ------ IMAGENES RESPONSIVE ------ ?*/
 @media screen and (max-width: 1000px) {
-  imagenes-tipicas {
+  .imagenes-tipicas {
     grid-auto-rows: 250px; } }
 
 @media screen and (max-width: 850px) {
-  grid-item {
+  .grid-item {
     grid-column: span 1;
     grid-row: span 1; } }
 
 @media screen and (max-width: 515px) {
-  imagenes-tipicas {
+  .imagenes-tipicas {
     grid-template-columns: 1fr; }
-  grid-item {
+  .grid-item {
     grid-column: span 1;
     grid-row: span 1; }
-    grid-item h3 {
+    .grid-item h3 {
       font-size: 15px; } }
 
 /*? ------ CONTACTO RESPONSIVE ------ ?*/
 @media screen and (max-width: 864px) {
-  main-contacto section {
+  .main-contacto section {
     flex-direction: column;
     align-items: center; }
-  main-contacto form {
+  .main-contacto form {
     width: 70%; }
-  contacto-mapa {
+  .contacto-mapa {
     margin-left: 25px;
     margin-bottom: 75px; }
-  dejanos-tu-comentario textarea {
+  .dejanos-tu-comentario textarea {
     width: 97%; } }
 
 @media screen and (max-width: 540px) {
-  contacto-mapa iframe {
+  .contacto-mapa iframe {
     height: 300px;
     width: 300px; } }

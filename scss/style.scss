@@ -7,7 +7,7 @@
 
 /*-Intro-*/
 
-hero{
+.hero{
     width: 100%;
     height: 100vh;
     background-image: url("../img/Anchorage_on_an_April_evening.jpg");
@@ -31,7 +31,7 @@ hero{
     }
 }
 
-parrafo-introductorio{
+.parrafo-introductorio{
     font-size: 20px;
     padding-left: 2%;
     padding-right: 2%;
@@ -41,7 +41,7 @@ parrafo-introductorio{
     justify-content: center;
 }
 
-accordion.accordion-flush{
+.accordion.accordion-flush{
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -49,7 +49,7 @@ accordion.accordion-flush{
 
 /*---Souvenirs---*/
 
-titulo-souvenirs {
+.titulo-souvenirs {
     h2{
         text-align: center;
         margin-bottom: 5px;
@@ -60,7 +60,7 @@ titulo-souvenirs {
     }
 }
 
-souvenirs div {
+.souvenirs div {
     width: 100%;
     background-color: aliceblue;
     height: 300px;
@@ -120,11 +120,11 @@ souvenirs div {
 
 /*+++ HISTORIA +++*/
 
-main-historia{
+.main-historia{
     flex-wrap: wrap;
 }
 
-historia-anchorage{
+.historia-anchorage{
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -135,7 +135,7 @@ historia-anchorage{
     }
 }
 
-historia-anchorage-texto{
+.historia-anchorage-texto{
     justify-content: left;
     padding-left: 15px;
     padding-right: 15px;
@@ -145,14 +145,14 @@ historia-anchorage-texto{
     }
 }
 
-video{
+.video{
     display: flex;
     padding: 15px;
     justify-content: space-around;
     margin-bottom: 70px;
 }
 
-video-texto{
+.video-texto{
     padding-right: 30px;
     display: flex;
     h2{
@@ -173,7 +173,7 @@ video-texto{
 /*--- HISTORIA ---*/
 /*+++ EL AEROPUERTO +++*/
 
-aeropuerto{
+.aeropuerto{
     width: 100%;
     height: 100vh;
     background-image: url("../img/aeropuerto-anchorage.JPG");
@@ -191,7 +191,7 @@ aeropuerto{
     }
 }
 
-main-aeropuerto{
+.main-aeropuerto{
     div{
         margin-bottom: 125px;
         text-align: center;
@@ -209,11 +209,11 @@ main-aeropuerto{
 /*--- EL AEROPUERTO ---*/
 /*+++ IMAGENES +++*/
 
-main-imagenes{
+.main-imagenes{
     width: 100%;
 }
 
-imagenes-tipicas{
+.imagenes-tipicas{
     margin: 30px 30px 60px 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -233,19 +233,19 @@ imagenes-tipicas{
     }
 }
 
-img-4{
+.img-4{
     grid-column: span 2;
 }
 
-img-6{
+.img-6{
     grid-row: span 2;
 }
 
-img-9{
+.img-9{
     grid-column: span 2;
 }
 
-grid-item{
+.grid-item{
     position: relative;
     h3{
         position: absolute;
@@ -257,13 +257,14 @@ grid-item{
 
 /*--- IMAGENES ---*/
 /*+++ CONTACTO +++*/
-contacto-y-mapa{
+
+.contacto-y-mapa{
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
 
-main-contacto form{
+.main-contacto form{
     width: 300px;
     height: 515px;
     border: 1px solid;
@@ -279,11 +280,11 @@ main-contacto form{
     }
 }
 
-dejanos-tu-comentario{
+.dejanos-tu-comentario{
     padding-top: 25px;
 }
 
-subida-archivos{
+.subida-archivos{
     margin: 30px;
     margin-bottom: 150px;
     h2{
@@ -291,7 +292,7 @@ subida-archivos{
     }
 }
 
-mb-3{
+.mb-3{
     padding: 10px;
 }
 
@@ -326,7 +327,7 @@ mb-3{
 /*? ------ INDEX RESPONSIVE ------ ?*/
 
 @media screen and (max-width: 683px){
-    souvenirs div{
+    .souvenirs div{
         flex-direction: column;
         align-items: center;
     }
@@ -335,7 +336,7 @@ mb-3{
 /*? ------ HISTORIA RESPONSIVE ------ ?*/
 
 @media screen and (max-width: 1118px){
-    historia-anchorage{
+    .historia-anchorage{
         flex-direction: column;
         align-items: center;
         margin-bottom: 10px;
@@ -344,22 +345,22 @@ mb-3{
             margin-bottom: 35px;
         }
     }
-    video{
+    .video{
         flex-direction: column;
         align-items: center;
     }
-    video-texto{
+    .video-texto{
         margin-bottom: 30px;
         margin-top: 50px;
     }
 }
 
 @media screen and (max-width: 670px){
-    hisoria-anchorage img{
+    .hisoria-anchorage img{
         width: 400px;
         height: 250px;
     }
-    video{
+    .video{
         align-items: center;
         margin-left: 25px;
     }
@@ -375,7 +376,7 @@ mb-3{
 /*? ------ EL AEROPUERTO RESPONSIVE ------ ?*/
 
 @media screen and (max-width: 639px){
-    aeropuerto{
+    .aeropuerto{
         height: 500px;
     }
 }
@@ -383,23 +384,23 @@ mb-3{
 /*? ------ IMAGENES RESPONSIVE ------ ?*/
 
 @media screen and (max-width: 1000px){
-    imagenes-tipicas{
+    .imagenes-tipicas{
         grid-auto-rows: 250px;
     }
 }
 
 @media screen and (max-width: 850px){
-    grid-item{
+    .grid-item{
         grid-column: span 1;
         grid-row: span 1;
     }
 }
 
 @media screen and (max-width: 515px){
-    imagenes-tipicas{
+    .imagenes-tipicas{
         grid-template-columns: 1fr;
     }
-    grid-item{
+    .grid-item{
         grid-column: span 1;
         grid-row: span 1;
         h3{
@@ -411,7 +412,7 @@ mb-3{
 /*? ------ CONTACTO RESPONSIVE ------ ?*/
 
 @media screen and (max-width: 864px){
-    main-contacto{
+    .main-contacto{
         section{
             flex-direction: column;
             align-items: center;
@@ -420,17 +421,17 @@ mb-3{
             width: 70%;
         }
     }
-    contacto-mapa{
+    .contacto-mapa{
         margin-left: 25px;
         margin-bottom: 75px;
     }
-    dejanos-tu-comentario textarea{
+    .dejanos-tu-comentario textarea{
         width: 97%;
     }
 }
 
 @media screen and (max-width: 540px){
-    contacto-mapa iframe{
+    .contacto-mapa iframe{
         height: 300px;
         width: 300px;
     }
