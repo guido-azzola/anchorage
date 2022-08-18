@@ -1,6 +1,11 @@
 @import "./base/generales";
 @import "./components/header";
 @import "./components/footer";
+@import "../scss/base/maps";
+@import "../scss/base/extend";
+@import "../scss/base/mixin";
+
+
 
 
 /*+++ INDEX +++*/
@@ -65,9 +70,8 @@
     background-color: aliceblue;
     height: 300px;
     height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    @extend %flex;
+    /*No se por qué este extend me lo mete en cualquier lado en el css*/
     div{
         width: 200px;
         height: 250px;
@@ -143,6 +147,9 @@
         padding-bottom: 11px;
         margin-top: -8px;
     }
+    p{
+        font-size: map-get($parrafos , font-size);
+    }
 }
 
 .video{
@@ -157,6 +164,9 @@
     display: flex;
     h2{
         padding-right: 15px;
+    }
+    p{
+        font-size: map-get($parrafos , font-size);
     }
 }
 
@@ -195,9 +205,7 @@
     div{
         margin-bottom: 125px;
         text-align: center;
-        align-items: center;
-        justify-content: center;
-        justify-items: center;
+        @include align (center, center, center);
         margin-left: 25px;
         margin-right: 25px;
     }

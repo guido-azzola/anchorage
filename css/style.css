@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:wght@100;300;400&display=swap");
 * {
   margin: 0;
@@ -69,6 +70,11 @@ header {
       width: 30px;
       height: 30px; }
 
+.souvenirs div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
 /*+++ INDEX +++*/
 /*-Intro-*/
 .hero {
@@ -120,9 +126,7 @@ header {
   background-color: aliceblue;
   height: 300px;
   height: auto;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap; }
+  /*No se por qué este extend me lo mete en cualquier lado en el css*/ }
   .souvenirs div div {
     width: 200px;
     height: 250px;
@@ -184,6 +188,8 @@ header {
   .historia-anchorage-texto h1 {
     padding-bottom: 11px;
     margin-top: -8px; }
+  .historia-anchorage-texto p {
+    font-size: 15px; }
 
 .video {
   display: flex;
@@ -196,6 +202,8 @@ header {
   display: flex; }
   .video-texto h2 {
     padding-right: 15px; }
+  .video-texto p {
+    font-size: 15px; }
 
 .video-video-mas-texto {
   display: flex;
