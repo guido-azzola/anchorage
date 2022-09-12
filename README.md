@@ -1,1 +1,2 @@
-Esto es un read me de prueba
+Esta pagina fue creada para compartir nuestra pasión por la ciudad más importante de Alaska, nuestra querida Anchorage. Queremos promover su cultura y animar el turismo.
+Espero encontrarte tomando un chocolate caliente en Anchorage pronto!
